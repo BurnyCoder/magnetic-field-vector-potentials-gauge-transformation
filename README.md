@@ -25,8 +25,8 @@ The lockfile fixes Python dependency
 versions. No API key or service account is required to generate the artifacts.
 
 ```bash
-git clone https://github.com/BurnyCoder/magnetic-field-gauge-transformation.git
-cd magnetic-field-gauge-transformation
+git clone https://github.com/BurnyCoder/magnetic-field-vector-potentials-gauge-transformation.git
+cd magnetic-field-vector-potentials-gauge-transformation
 uv sync --locked
 uv run gauge-fields
 ```
@@ -130,7 +130,8 @@ and phone-sized layouts. [AGENTS.md](AGENTS.md) defines repository maintenance r
 ## Sources
 
 - [Reference passages](docs/reference-text.md): quoted descriptions of gauge freedom and the uniform-field example.
-- [MIT electromagnetism solutions, page 6](https://web.mit.edu/8.286/www/quiz22/q3sols-euf22.pdf): gauge invariance and closed-loop circulation.
+- [MIT 8.286 (The Early Universe, A. Guth) Quiz 3 solutions, Fall 2022, Problem 1(d)–(e), page 6](https://web.mit.edu/8.286/www/quiz22/q3sols-euf22.pdf): electromagnetic gauge transformation, unchanged fields, and closed-loop circulation.
+- [D. Tong, Cambridge lecture notes, chapter 1 "Particles in a Magnetic Field"](https://www.damtp.cam.ac.uk/user/tong/aqm/solid1.pdf): gauge transformations (section 1.1.2, eq. 1.6) and the symmetric gauge (section 1.2.2, eq. 1.18).
 - [Matplotlib quiver](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.quiver.html), [NumPy gradient](https://numpy.org/doc/stable/reference/generated/numpy.gradient.html), and [D3 selections](https://d3js.org/d3-selection): numerical/rendering APIs.
 - [uv projects](https://docs.astral.sh/uv/guides/projects/), [python-dotenv](https://bbc2.github.io/python-dotenv/), and [Python logging](https://docs.python.org/3/howto/logging.html): reproducible setup and diagnostics.
 - [markdown-it-py](https://markdown-it-py.readthedocs.io/en/latest/using.html), [ReportLab Platypus](https://docs.reportlab.com/reportlab/userguide/ch5_platypus/), and [Playwright](https://playwright.dev/python/docs/library): report generation and browser verification.
