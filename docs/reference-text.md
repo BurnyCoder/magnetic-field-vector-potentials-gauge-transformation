@@ -40,4 +40,4 @@ A'_x=-by,\qquad A'_y=0,\qquad A'_z=0.
 > the same magnetic field has a name. It is called a gauge transformation.
 
 The transformation rule and unchanged circulation are independently checked
-against [MIT's electromagnetic derivation, page 6](https://web.mit.edu/8.286/www/quiz22/q3sols-euf22.pdf).
+against [MIT 8.286 Quiz 3 solutions (Fall 2022), Problem 1(d)–(e), page 6](https://web.mit.edu/8.286/www/quiz22/q3sols-euf22.pdf).
