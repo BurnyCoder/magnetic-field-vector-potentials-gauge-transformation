@@ -6,7 +6,8 @@ while their curl and the magnetic field remain fixed.
 
 The [reference passages](reference-text.md) contain the quoted text. The
 step-by-step derivation below is added explanation, cross-checked against
-[MIT's gauge-transformation and circulation derivation, page 6](https://web.mit.edu/8.286/www/quiz22/q3sols-euf22.pdf).
+the gauge-transformation and closed-loop circulation derivation in
+[MIT 8.286 Quiz 3 solutions (Fall 2022), Problem 1(d)–(e), page 6](https://web.mit.edu/8.286/www/quiz22/q3sols-euf22.pdf).
 
 ## 1. What the arrows represent
 
@@ -124,8 +125,9 @@ The slider chooses a dimensionless number \(\lambda\) between 0 and 1:
 
 At 0 it is the first potential; at 1 it is the second. At 1/2 it becomes
 \(\frac12(-by,bx,0)=\frac12\mathbf B\times\mathbf r\), where
-\(\mathbf r=(x,y,z)\). This is the [symmetric gauge](https://www.damtp.cam.ac.uk/user/tong/aqm/solid1.pdf),
-which is rotationally symmetric about the z axis through the origin.
+\(\mathbf r=(x,y,z)\). This is the [symmetric gauge](https://www.damtp.cam.ac.uk/user/tong/aqm/solid1.pdf)
+(Tong, section 1.2.2, eq. 1.18), which is rotationally symmetric about the
+z axis through the origin.
 For every slider position,
 
 \[
@@ -149,7 +151,8 @@ of space, and we have constructed their connecting scalar explicitly.
 
 This is gauge invariance: the chosen potential changes while the magnetic
 field, and hence the magnetic force \(q\mathbf v\times\mathbf B\) on a
-particle with the same charge and velocity, remain the same.
+particle with the same charge and velocity, remain the same (magnetic part of
+the [Lorentz force law](https://www.damtp.cam.ac.uk/user/tong/aqm/solid1.pdf), Tong, section 1.1).
 
 The scalar \(s\) is a **gauge function**, not the electric scalar potential
 \(\phi\). This showcase is static and uses time-independent \(s\). In SI

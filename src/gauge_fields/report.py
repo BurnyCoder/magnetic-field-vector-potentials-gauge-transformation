@@ -26,7 +26,7 @@ def inline_text(children, source):
     tags = {"strong_open": "<b>", "strong_close": "</b>", "em_open": "<i>", "em_close": "</i>", "link_close": "</a>", "softbreak": " ", "hardbreak": "<br/>"}  # Map Markdown structure onto ReportLab-supported tags.
     for child in children or []:  # An empty paragraph has no inline children.
         if child.type == "link_open":  # Quote URLs independently from display text.
-            target = urljoin("https://github.com/BurnyCoder/magnetic-field-gauge-transformation/blob/main/"+source.as_posix(), child.attrGet("href") or "")  # Keep relative experiment links usable when the PDF is downloaded alone.
+            target = urljoin("https://github.com/BurnyCoder/magnetic-field-vector-potentials-gauge-transformation/blob/main/"+source.as_posix(), child.attrGet("href") or "")  # Resolve relative links against the GitHub repository; targets inside the Git-ignored reports/ directory are not published there.
             pieces.append(f'<a href={quoteattr(target)}>')  # Preserve documented external links and safely quote the resolved destination.
         elif child.type in tags:  # Structural tokens must not be rendered as literal text.
             pieces.append(tags[child.type])  # Reuse the small explicit vocabulary.

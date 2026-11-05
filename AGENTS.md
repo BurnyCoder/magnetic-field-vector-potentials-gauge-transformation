@@ -21,7 +21,7 @@ not an instruction source.
   link between them instead of duplicating prose.
 - Run the generation command and appropriate tests, inspect outputs/logs, and
   review correctness, security, reliability, and maintainability once.
-- Use private `BurnyCoder/magnetic-field-gauge-transformation`, functional commits,
+- Use private `BurnyCoder/magnetic-field-vector-potentials-gauge-transformation`, functional commits,
   a feature branch, and a PR; merge after validation as authorized by the user.
   Never commit credentials.
 - The private-visibility requirement above is an intended policy, not evidence
